@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "target": "ES6",
+    "module": "commonjs",
+    "lib": ["dom", "dom.iterable", "es2019.array"],
+    "jsx": "preserve",
+    "noEmit": true,
+    "strict": true,
+    "allowSyntheticDefaultImports": true,
+    "downlevelIteration": true,
+    "esModuleInterop": true,
+    "baseUrl": ".",
+    "resolveJsonModule": true,
+    "paths": {
+      "@images": ["public/images"],
+      "@hooks": ["src/hooks"],
+      "@client": ["src/client.ts"],
+      "@types": ["src/types"],
+      "@components": ["src/components"]
+    }
+  },
+  "include": [
+    "./src"
+  ]
+}
